@@ -20,7 +20,7 @@ private const val R2 = 2 // center point
 private const val K1 = 628 // scale
 private const val K2 = 5 // donut <-> viewer distance
 
-private const val ANIM_DURATION_IN_MILLIS = 5000
+private const val ANIM_DURATION_IN_MILLIS = 10000
 
 @Composable
 fun RotatingDonut(modifier: Modifier) {
@@ -80,8 +80,10 @@ fun RotatingDonut(modifier: Modifier) {
                 val projectedX = (K1 * oneOverZ * x)
                 val projectedY = (K1 * oneOverZ * y)
 
+                val green = Color(0xFF78B899)
+
                 drawCircle(
-                    Color.Black,
+                    green,
                     center = Offset(center.x + projectedX, center.y - projectedY),
                     radius = size.minDimension * CIRCLE_RADIUS_FACTOR
                 )
