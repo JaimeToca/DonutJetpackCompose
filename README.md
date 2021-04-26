@@ -1,5 +1,5 @@
 # DonutJetpackCompose
-This is a flying spinning donut created using Jetpack Compose.
+This is a flying spinning donut built using Jetpack Compose.
 
 The basic steps are :
 
