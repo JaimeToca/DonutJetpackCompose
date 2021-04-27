@@ -12,7 +12,10 @@ Illumination and performance improvements are still in progress. (PR are welcome
 
 I recommend you check out [Andy's blog](https://www.a1k0n.net/2011/07/20/donut-math.html) on the mathematics behind a spinning torus.
 
-[Full Animation video](https://user-images.githubusercontent.com/11850271/116145103-24c7f700-a6dd-11eb-9200-a84f06292391.mp4)
+
+https://user-images.githubusercontent.com/11850271/116158016-3d8cd880-a6ee-11eb-88f5-216a73e8c6b5.mp4
+
+
 
 
 
